@@ -51,6 +51,11 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Memory
+*.sqlite
+*.db
+.cache/
+
 # Translations
 *.mo
 *.pot
