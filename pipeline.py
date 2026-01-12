@@ -24,7 +24,7 @@ params = {
 	"latitude": 60.1699,
 	"longitude": 24.9384,
 	"hourly": "temperature_2m,apparent_temperature",
-    "location": 'Europe/Helsinki'
+    "timezone": 'Europe/Helsinki'
 }
 responses = openmeteo.weather_api(url, params=params)
 
